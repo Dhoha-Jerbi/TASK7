@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ 
+
+
+
+   
+body{
+    background-color :black;
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    font-family:montserrat;
+    margin:auto;
+    padding:auto;
+  
+}
+
+
+.page1 {
+
+
+width:80vw;
+margin:auto;
+padding:auto;
+
+
+
+}
+.page2 {
+
+width:80vw;
+margin:auto;
+padding:auto;
+
+}
+
+.page3{
+    background-color:rgb(34, 33, 33);
+    width:80vw;
+    padding-top: 50px;
+    
+   
+    
+margin:auto;
+padding:auto;
+}
+
+
+.navbar {
+    background-color:black;
+    height:70px;
+    display:flex;
+    gap:50px;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 60px;
+    
+}
+.menu img {
+    height:30px;
+    width:30px;
+    
+}
+
+.menu {
+    display:flex;
+    gap:20px;
+       
+}
+      
+.name {
+    font-weight: 800;
+    font-size:20px;
+}
+    
+.souscontenu img {
+    
+    width:320px;
+    
+    
+}
+.souscontenu{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+.container h1 {
+    font-size: 70px;
+    font-weight:900;
+    
+}
+.container p{
+    font-size: 15px;
+
+}
+.ligne {
+    height:1px;
+    width:90%;
+    background-color:gray;
+    margin:auto;
+    margin-top: 60px;
+    
+}
+.souscontenu a {
+    color:white;
+    
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+
+
+}
+.item {
+    background-color: pink;
+    height:350px;
+    width:500px;
+    border:none;
+}
+.contgrid{
+    display:grid;
+    grid-template-rows: repeat(1fr,3);
+    grid-template-columns: repeat(1fr,2);
+    grid-template-areas:
+    "item1 item2"
+    "item3 item4"
+    "item5 item6" ;
+    justify-content:center;
+    align-self: center;
+gap:70px;
+padding-bottom: 80px;
+
+;
+}
+
+.item1 {
+    grid-area:item1;
+}
+.item2 {
+    grid-area:item2;
+}
+.item3 {
+    grid-area:item3;
+}
+.item4 {
+    grid-area:item4;
+}
+.item5 {
+    grid-area:item5;
+}
+.item6 {
+    grid-area:item6;
+}
+.item img{
+    height:350px;
+    width:500px;
+}
+#textpixel ,#textnike,#textregis,#textai,#textplan,#textcv {
+    font-size: 10px;
+
+}
+.cercle img{
+    
+    height:130px;
+    width:700px;
+    margin-left:1000px;
+ 
+ 
+}
+.ligne2{
+    
+        height:1px;
+        width:360px;
+        background-color:gray;
+        margin:auto;
+        
+}
+.page3contenu {
+    display:flex;
+    justify-content:space-evenly;
+    padding-left:100px;
+    padding-right:200px;
+   
+}
+
+.page3contenu1{
+    
+    width:50vw;
+    height: 300px;
+    margin-left:0px;
+    margin-right:40px;
+    color:white;
+    
+}
+.page3contenu2{
+    
+    width:50vw;
+    height:300px;
+    margin-right:0px;
+    margin-left:60px;
+    color:white;
+   
+}
+.page3contenu1 h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+   
+
+
+
+#cercle2 {
+    height:120px;
+    width:600px;
+    margin-left:-900px;
+   
+    
+    
+}
+.navigbas {
+    height:50px;
+    width:80vw;
+   
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:5px;
+
+
+}
+
+#souligne {
+    text-decoration: underline;
+    text-decoration-color:rgb(76, 176, 76);
+    display:inline;
+    font-size: 70px;
+    font-weight:900;
+    
+    
+}
+#contact{
+    color:white;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color:rgb(71, 152, 71);
+    text-decoration-thickness:3px;
+
+}
+#contact2 {
+    color:white;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color:rgb(71, 152, 71);
+    text-decoration-thickness:3px;
+
+}
+
+
+
+.zone1 {
+    display: flex;
+    height:100px;
+    justify-content: center;
+    align-content:space-around;
+    gap:70px;
+}
+.zone2{
+    height:100px;
+    display: flex;
+    height:100px;
+    justify-content: center;
+    align-content: space-around;
+    gap:70px;
+}
+.zone1 h2 {
+    font-size: 30px;
+}
+.zone2 h2 {
+    font-size:30px;
+}
+
+.blctxt p {
+    font-size: 15px;
+}
+
+.soupage {
+   display:flex;
+   gap:850px;
+}
